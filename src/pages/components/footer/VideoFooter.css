@@ -2,11 +2,13 @@
     position: relative;
     bottom: 18%;
     color:white;
-    margin-left: 20px;
+    margin-left: 0;
+    scale: 90%;
 }
 
 .VideoFooter_text h3{
     padding-bottom: 7px;
+   
 }
 
 .VideoFooter_text p{
@@ -15,8 +17,8 @@
 
 .VideoFooter_music{
     display: flex;
+    
 }
-
 
 .VideoFooterMusic_text{
     
@@ -25,6 +27,7 @@
 }
 
 .VideoFooterMusic_text p{
+    
     animation: moveTheText 3s infinite linear;
 }
 
@@ -32,8 +35,8 @@
 .VideoFooter_record{
     animation: spinTheRecord 3s infinite linear;
     position: absolute;
-    bottom: 2px;
-    right: 11px;
+    bottom: 0px;
+    right: -3px;
     height: 30px;
     filter: invert(1);
     
